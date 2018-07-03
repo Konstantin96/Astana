@@ -40,12 +40,15 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class1.cs" />
-    <Compile Include="ModelAccount\Account.cs" />
-    <Compile Include="ModelBank\Bank.cs" />
-    <Compile Include="ModelClient\Client.cs" />
-    <Compile Include="ModelClient\ServiceClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ServiceAccount.cs" />
+    <Compile Include="ServiceClient.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Astana.DAL\Astana.DAL.csproj">
+      <Project>{23fc1af6-2240-41af-90a9-be372e989f1e}</Project>
+      <Name>Astana.DAL</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

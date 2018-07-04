@@ -10,7 +10,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 namespace Astana.Web
-{
+{//
     class Program
     {
         private static Client client;
